@@ -6,7 +6,7 @@ The goal of this project is to design and evaluate a deep neural network for (1)
 
 The stages of the project will be as follows:
 
-1) Data loading - Loading a handwritten digits dataset (the MNIST dataset) and expanding the images, such that the digits are placed randomly inside a larger image.
+1) Data preparation - Loading a handwritten digits dataset (the MNIST dataset) and expanding the images, such that the digits are placed randomly inside a larger image.
 
 2) Model development - Designing and training the deep learning model, and explaining the reasoning behind the different development decisions.
 
