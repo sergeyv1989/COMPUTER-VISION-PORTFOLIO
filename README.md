@@ -1,4 +1,4 @@
-# Portfolio-computer-vision
+# PORTFOLIO-COMPUTER-VISION
 Projects portfolio in computer vision.
 
 ## (1) Noisy digits localization & classification
