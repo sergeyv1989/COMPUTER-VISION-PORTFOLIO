@@ -2,7 +2,9 @@
 Projects portfolio in computer vision.
 
 ## (1) Localizing "bumps" in particle physics experimental results
-Paper published in European Physics Journal C: https://doi.org/10.1140/epjc/s10052-022-10215-1
+The goal of this project is to identify "bumps" in particle colliders experimental results, which may hint on new particles.
+
+It was published in the European Physics Journal C: https://doi.org/10.1140/epjc/s10052-022-10215-1
 
 Abstract: We propose a data-directed paradigm (DDP) to search for new physics. Focusing on the data without using simulations, exclusive selections which exhibit significant deviations from known properties of the standard model can be identified efficiently and marked for further study. Different properties can be exploited with the DDP. Here, the paradigm is demonstrated by combining the promising potential of neural networks (NN) with the common bump-hunting approach. Using the NN, the resource-consuming tasks of background and systematic uncertainty estimation are avoided, allowing rapid testing of many final states with only a minor degradation in the sensitivity to bumps relative to standard analysis methods.
 
