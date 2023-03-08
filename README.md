@@ -1,10 +1,15 @@
 # PORTFOLIO-COMPUTER-VISION
 Projects portfolio in computer vision.
 
-## (1) Noisy digits localization & classification
+## (1) Localizing "bumps" in particle physics experimental results
+Paper published in European Physics Journal C: https://doi.org/10.1140/epjc/s10052-022-10215-1
+
+Abstract: We propose a data-directed paradigm (DDP) to search for new physics. Focusing on the data without using simulations, exclusive selections which exhibit significant deviations from known properties of the standard model can be identified efficiently and marked for further study. Different properties can be exploited with the DDP. Here, the paradigm is demonstrated by combining the promising potential of neural networks (NN) with the common bump-hunting approach. Using the NN, the resource-consuming tasks of background and systematic uncertainty estimation are avoided, allowing rapid testing of many final states with only a minor degradation in the sensitivity to bumps relative to standard analysis methods.
+
+## (2) Noisy digits localization & classification
 The goal of this project is to design and evaluate a deep neural network for (1) localizing and (2) classifying handwritten digits in images, where the digits aren't necessarily centered inside the images, and different noise types could be applied to them.
 
-The stages of the project will be as follows:
+The stages of the project are as follows:
 
 1) Data preparation - Loading a handwritten digits dataset (the MNIST dataset) and expanding the images, such that the digits are placed randomly inside a larger image.
 
