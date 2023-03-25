@@ -21,11 +21,7 @@ The stages of the project are as follows:
 
 4) Model deployment - Planning how to deploy the model at the front-end and the back-end, and how to deal with potential congestion issues.
 
-## (3) Work in progress...
-
-Work in progress...
-
-## (4) Handwritten digits classification tutorial
+## (3) Handwritten digits classification tutorial
 The goal of this project is to teach how to train and evaluate a deep neural network for classifying handwritten digits in 10 easy steps, for educational purposes.
 
 The steps are: 1) Import libraries, 2) Choose settings, 3) Load training & testing data, 4) Define useful variables, 5) Explore data, 6) Process data, 7) Define the neural network, 8) Train the model, 9) Evaluate model's performance, and 10) Inspect model's mistakes.
