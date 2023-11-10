@@ -1,4 +1,4 @@
-# PORTFOLIO-COMPUTER-VISION
+# COMPUTER-VISION-PORTFOLIO
 Projects portfolio in computer vision.
 
 ## (1) Localizing "bumps" in particle physics experimental results
