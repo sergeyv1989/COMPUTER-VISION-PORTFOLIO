@@ -1,0 +1,38 @@
+# Configurations
+
+data:
+    images_folders: [
+        "C:/Sergey's Google Drive/Workspace/chips-defects-semantic-segmentation/data/defective_examples",
+        "C:/Sergey's Google Drive/Workspace/chips-defects-semantic-segmentation/data/non_defective_examples"
+    ]
+
+preprocessor:
+    processed_images_folder: "C:/Sergey's Google Drive/Workspace/chips-defects-semantic-segmentation/data/preprocessed_images"
+    process_images: False
+    algorithms:
+        normalization:
+            type: scale_by_max
+        registration:
+            type: submatrix_mse
+            kwargs: {submatrix_size_ratio: 0.9, image_size_step: 1}
+        # semantic_segmentation: {type: hugging_face} # Placeholder
+
+inspector:
+    results_folder: "C:/Sergey's Google Drive/Workspace/chips-defects-semantic-segmentation/data/results"
+    save_results: True
+    algorithms:
+        'subtraction':
+            weight: 1
+            kwargs: {threshold: 75}
+        'similarity_in_window':
+            weight: 1
+            kwargs: {window_size: [10,10], threshold: 120} # {window_size: [5,5], threshold: 150}
+        # 'cnn': # Placeholder
+        #     weight: 1
+        #     kwargs: {}
+    unified_defects_mask_threshold: 0.75
+    small_defects_ones_threshold: 5
+    small_defects_neighborhood_size: 3
+
+monitoring:
+    plot_images: True
