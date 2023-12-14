@@ -22,7 +22,9 @@ The stages of the project are as follows:
 4) Model deployment - Planning how to deploy the model at the front-end and the back-end, and how to deal with potential congestion issues.
 
 ## (3) Chips defects semantic segmentation
-The goal of this project is to create a binary detection mask for defects found in chip manufacturing images. Minimal assumptions are made on the possible defect types and false detections are minimized by comparing the results of a subtraction-based algorithm and a window-similarity-based algorithm. 
+The goal of this project is to create a binary detection mask for defects found in chip manufacturing images.
+
+Minimal assumptions are made on the properties of the possible defect types to create the most generic solution, and false detections are minimized by comparing the results of a subtraction-based algorithm and a window-similarity-based algorithm. 
 
 ## (4) Handwritten digits classification tutorial
 The goal of this project is to teach how to train and evaluate a deep neural network for classifying handwritten digits in 10 easy steps, for educational purposes.
